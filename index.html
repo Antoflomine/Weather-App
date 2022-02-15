@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+            <h1 class="title">Weather Report</h1>
+            <br>
+            <input type="text" name="city-input" placeholder="Search City" id="city-input">
+            <br>
+            <input type="button" onclick="searchCity()" value="Search">
+            <br>
+            <br>
+        </div>
+        <div class="results">
+            <h2 id="city-name">-----</h2>
+        </div>
+        <div>
+            <h1 id="weather-type">----</h1>
+            <div>
+                <h3>Temperature: <span id="temp"></span><span>°F</span></h3>
+                <br>
+                <h3>Humidity: <span id="humidity"></span><span>°F</h3> <br>
+                <h3>Minimum Temperature: <span id="min-temp"></span>°F</h3> <br>
+                <h3>Maximum Temperature: <span id="max-temp"></span>°F</h3> <br>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
